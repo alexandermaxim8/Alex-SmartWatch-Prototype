@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESP IOT DASHBOARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+    <script src="http://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+    <script src="https://kit.fontawesome.com/5a95501aa0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>ESP WEB SERVER GAUGES</h1>
+    </div>
+    <div class="content">
+      <div class="card-grid">
+        <div class="card">
+          <p class="card-title">Heart Rate</p>
+          <canvas id="gauge-heartrate"></canvas>
+        </div>
+        <div class="card">
+          <p class="card-title">Oxygen Level</p>
+          <canvas id="gauge-SpO2"></canvas>
+        </div>
+      </div>
+      <div class = "card2">
+        <i class="fa-solid fa-shoe-prints" style="color:#000000;"></i>
+        <span class="steps-labels"># of Steps</span>
+        <span id="steps">%STEPS%</span>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
