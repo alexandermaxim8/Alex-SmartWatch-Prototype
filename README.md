@@ -1,4 +1,6 @@
 # Low-Cost Smartwatch Prototype
+![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/c7d3cb58-616c-4bd4-a71b-a7d47e77097d)
+
 ## About
 Like a smartphone, the development of watches also rapidly becoming more sophisticated. The needs of easiness of time-tracking, is also heavily added with other features, making human activities more instantaneous. This prototype is made as a learning media, and could be also proposed as simpler and cheaper way to develop a gadget by each own. So if this project is continued further, people also can have their own customized gadget easily.
 
@@ -17,7 +19,7 @@ Like a smartphone, the development of watches also rapidly becoming more sophist
 As an usual watch, it shows the date and time in front-most display. Basicly, when the system is just getting powered, the internal ESP32 RTC is in reset. Time need to be synchronized with the NTP server at the first time.
 
 To navigates through different functionalities, it is already comprised several menus configured with state machines, and also two push button to scroll and proceed.
-
+![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/e6d99811-059c-4cef-804c-d8b623c71276)
 Menus:
 - Running Mode, shows heartrate, steps, position (lon & lat).
 - Health test, heartrate and SpO2 level
