@@ -34,4 +34,4 @@ Web Server only runs in Active Mode. It is accessed through local hotspot IP Add
 ![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/368fe9e1-4b12-4965-a360-cd6f2b813636)
 
 Deme:
-![https://youtu.be/w_bleBQxlsI](https://youtu.be/w_bleBQxlsI)
+[https://youtu.be/w_bleBQxlsI](https://youtu.be/w_bleBQxlsI)
