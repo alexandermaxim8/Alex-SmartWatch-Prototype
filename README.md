@@ -38,8 +38,8 @@ Demo:
 
 ## Unsolved Issues
 - Wake up after deep sleep mode sometimes occuring an undetected sensor issues, might be caused by insufficient power or quality of the modules itself.
-- Lack of preprocess of MAX30102 measurement, lots of noises.
-- Point in web-server's map missing, png source file has to be replaced with the new one.
+- Lack of preprocessing of MAX30102 measurement, lots of noises.
+- Pointer/cursor in web-server's map is missing, png source file has to be replaced with the new one.
 
 ## Reference
 [https://randomnerdtutorials.com/esp32-web-server-gauges/](https://randomnerdtutorials.com/esp32-web-server-gauges/)
