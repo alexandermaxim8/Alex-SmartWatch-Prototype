@@ -33,5 +33,15 @@ Web Server only runs in Active Mode. It is accessed through local hotspot IP Add
 ![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/c0ac5d4f-9713-4988-b11b-5acd6f7b779f)
 ![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/368fe9e1-4b12-4965-a360-cd6f2b813636)
 
-Deme:
+Demo:
 [https://youtu.be/w_bleBQxlsI](https://youtu.be/w_bleBQxlsI)
+
+## Unsolved Issues
+- Wake up after deep sleep mode sometimes occuring an undetected sensor issues, might be caused by insufficient power or quality of the modules itself.
+- Lack of preprocess of MAX30102 measurement, lots of noises.
+- Point in web-server's map missing, png source file has to be replaced with the new one.
+
+## Reference
+[https://randomnerdtutorials.com/esp32-web-server-gauges/](https://randomnerdtutorials.com/esp32-web-server-gauges/)
+[https://youtu.be/eusybY8qAac?feature=shared](https://youtu.be/eusybY8qAac?feature=shared)
+[https://youtu.be/cpwrwPTqMac?feature=shared](https://youtu.be/cpwrwPTqMac?feature=shared)
