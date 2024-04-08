@@ -24,8 +24,8 @@ To navigates through different functionalities, it is already comprised several 
 
 Menus:
 - Running Mode, shows heartrate, steps, position (lon & lat).
-- Health test, heartrate and SpO2 level
-- Timer
+- Health test, monitors heartrate and SpO2 level
+- Timer (up to 99 minutes)
 - Active/Saver Mode, activates connections to Wifi and initiates a Web Server. With saver mode, low-power operation is enabled with a deep-sleep after 30s.
 
 Web Server:
