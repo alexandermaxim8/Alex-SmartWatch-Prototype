@@ -19,7 +19,9 @@ Like a smartphone, the development of watches also rapidly becoming more sophist
 As an usual watch, it shows the date and time in front-most display. Basicly, when the system is just getting powered, the internal ESP32 RTC is in reset. Time need to be synchronized with the NTP server at the first time.
 
 To navigates through different functionalities, it is already comprised several menus configured with state machines, and also two push button to scroll and proceed.
+
 ![image](https://github.com/alexandermaxim8/Alex-SmartWatch-Prototype/assets/143409662/e6d99811-059c-4cef-804c-d8b623c71276)
+
 Menus:
 - Running Mode, shows heartrate, steps, position (lon & lat).
 - Health test, heartrate and SpO2 level
